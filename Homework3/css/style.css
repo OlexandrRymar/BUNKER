@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  background-image: url(../Gallery/IMG_20230918_233714_791.jpg);
+  background-size: cover;
+}
+
+.headline {
+  height: 80px;
+  width: 100%;
+  background-color: #617894e0;
+  background-image: url(../Gallery/2024-audi-rs6-performance-motion-front-1669663114.jpg);
+}
+
+.text {
+  color: rgba(5, 5, 5, 0.692);
+  width: 250px;
+  height: 20px;
+  padding-top: 20px;
+  padding-left: 45vw;
+}
+
+.h1 {
+  color: rgb(201, 201, 201);
+  background-color: rgba(0, 0, 0, 0.301);
+  width: 600px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  margin-left: 80px;
+  border: 3px solid black;
+  border-top: rgba(0, 0, 0, 0);
+}
+
+.inform {
+  color: #e5f1adec;
+  width: 500px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+
+.button {
+  color: black;
+  text-decoration: none;
+  padding-left: 80px;
+}
