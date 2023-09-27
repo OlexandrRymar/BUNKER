@@ -1,0 +1,55 @@
+.container-1,
+.container-2,
+.container-3 {
+  border: 0px solid rgba(255, 0, 0, 0);
+  height: 200px;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+  height: 200px;
+  width: 200px;
+  background-color: #fc8f8f;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.page {
+  max-width: 1280px;
+  background-color: #c4c4c4;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  background-color: #e6e6e6;
+}
+
+.cont_pad-2,
+.cont_pad-3 {
+  margin-top: 50px;
+}
+
+.another_box div,
+.container-3 div {
+  display: inline-block;
+}
+
+.container-1 .box1,
+.container-2 .box1 {
+  float: left;
+}
+
+.container-1 .box2,
+.another_box {
+  float: right;
+}
+
+.two {
+  float: right;
+}
