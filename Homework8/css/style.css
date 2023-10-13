@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: Roboto;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #efefef;
+}
+
+.header-top_navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.header-top_navigation-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header-top_navigation-list__item-link {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  padding: 17px 15px;
+}
+
+.header-background {
+  background-color: #fff;
+}
+.header-background-logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-background-logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-background-logo-wrapper__beauty {
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #f13c6e;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 3.6px;
+}
+
+.header-background-content_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-background-content_wrapper__number {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.header-background-content_wrapper__call_back {
+  border-radius: 40px;
+  border: 2px solid #f13c6e;
+  background: #fff;
+  padding: 12px 26px 13px 27px;
+}
+
+.header-nav_bottom {
+  border-top: 1px solid #efefef;
+}
+
+.header-nav_bottom-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav_bottom-list__item-link {
+  color: #000;
+  display: block;
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.header-background_pink {
+  background-color: #f13c6e;
+}
+
+.header-background_pink-content {
+  background-image: url(../images/barber-chair-with-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 200px 0;
+}
+
+.header-background_pink-content__title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header-background_pink-content__text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.header-background_pink-content__btn {
+  color: #fff;
+  border-radius: 40px;
+  border: 2px solid #fff;
+  background: #f13c6e;
+  padding: 12px 26px 13px 27px;
+}
+
+.retreat {
+  margin-bottom: 50px;
+}
+
+.main {
+  background-color: #efefef;
+  padding: 80px;
+}
+
+.main-container-title {
+}
+
+.main-container-title__special_offers {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.main-container-top_card_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.main-container-top_card_wrapper-box {
+  display: inline-block;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.main-container-top_card_wrapper-box-content__text {
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140.625%;
+}
+
+.main-container-top_card_wrapper-box-content__price {
+  color: #000;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 1.05px;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.main-container-top_card_wrapper-box-content__btn {
+  color: #fff;
+  border-radius: 30px;
+  background: #f13c6e;
+  padding: 10px 50px;
+}
+
+.main-horizontal_box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.main-horizontal_box-card {
+  background-color: #f13c6e;
+  display: flex;
+  padding: 35px 40px;
+}
+
+.main-horizontal_box-card-content__card-name {
+  color: #fff;
+  font-size: 18px;
+
+  font-weight: 700;
+
+  margin-bottom: 25px;
+}
+
+.main-horizontal_box-card-content__card-paragraph {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-bottom: 25px;
+}
+
+.main-horizontal_box-card-content-png {
+  margin-left: 120px;
+}
+
+.main-horizontal_box-card-content__input {
+  border-radius: 20px;
+}
+
+.main-horizontal_item {
+  background-color: #f13c6e;
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 40px;
+}
+
+.main-horizontal_item-content__visit_as {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.main-horizontal_item-content__paragraph {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140.625%;
+  margin-bottom: 25px;
+}
+
+.main-horizontal_item-content__store_map {
+  color: #fff;
+  background-color: #f13c6e;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 9px 53px;
+}
+
+.main-horizontal_item-content-image {
+  margin-left: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.main-impulse-block {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.main-impulse-block-box__box1,
+.main-impulse-block-box__box2 {
+  border-bottom: 1px solid #efefef;
+}
+
+.border {
+  border-right: 1px solid #efefef;
+}
+
+.main-impulse-block-box__box1,
+.main-impulse-block-box__box2,
+.main-impulse-block-box__box3 {
+  padding: 35px 72px;
+}
+
+.footer {
+  background-color: #fff;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-flex-navbar {
+  padding: 60px 0;
+  margin-right: 20px;
+}
+
+.footer-flex-navbar-title__popular {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140.625%;
+}
+.footer-flex-navbar-title__popular {
+  padding-right: 150px;
+  padding-bottom: 15px;
+}
+
+.footer-flex-navbar-list {
+  border-top: 2px solid #efefef;
+  padding-top: 15px;
+}
+.footer-flex-navbar-list-item__link {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+
+.footer-content {
+  border-top: 3px solid #efefef;
+  padding: 30px 0;
+}
+.footer-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content-wrapper-flex__link__img {
+  padding-right: 20px;
+}
+
+.footer-content-wrapper-flex-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content-wrapper-flex-box__number {
+  color: #000;
+font-size: 16px;
+font-weight: 400;
+padding-right: 40px;
+}
+
+.footer-content-wrapper-flex-box__btn {
+  border-radius: 40px;
+border: 2px solid #F13C6E;
+background: #FFF;
+padding:13px 26px;
+}
+
+.footer-information {
+  background-color: #efefef;
+  padding: 25px 0;
+}
+
+.footer-information-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-information-box__about {
+  color: #828282;
+font-size: 12px;
+font-weight: 400;
+}
+.footer-information-box__policy {
+  color: #828282;
+font-size: 12px;
+font-weight: 400;
+}
