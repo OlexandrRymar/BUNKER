@@ -131,9 +131,6 @@ body {
   padding: 80px;
 }
 
-.main-container-title {
-}
-
 .main-container-title__special_offers {
   color: #000;
   font-size: 24px;
@@ -311,7 +308,6 @@ body {
   line-height: 28px;
 }
 
-
 .footer-content {
   border-top: 3px solid #efefef;
   padding: 30px 0;
@@ -333,16 +329,16 @@ body {
 
 .footer-content-wrapper-flex-box__number {
   color: #000;
-font-size: 16px;
-font-weight: 400;
-padding-right: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 40px;
 }
 
 .footer-content-wrapper-flex-box__btn {
   border-radius: 40px;
-border: 2px solid #F13C6E;
-background: #FFF;
-padding:13px 26px;
+  border: 2px solid #f13c6e;
+  background: #fff;
+  padding: 13px 26px;
 }
 
 .footer-information {
@@ -357,11 +353,11 @@ padding:13px 26px;
 
 .footer-information-box__about {
   color: #828282;
-font-size: 12px;
-font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 }
 .footer-information-box__policy {
   color: #828282;
-font-size: 12px;
-font-weight: 400;
+  font-size: 12px;
+  font-weight: 400;
 }
