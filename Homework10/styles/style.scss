@@ -1,0 +1,163 @@
+@import "./var.scss";
+
+.page {
+  font-family: $font-family;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  background-color: #eeeff1;
+}
+
+.page__head {
+  padding: 80px 0 100px 0;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 42px;
+}
+
+.navigation__item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+.navigation__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-image: url(../images/icon.png);
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  left: 0px;
+  bottom: 5px;
+}
+
+.navigation__link {
+  color: $base-color;
+  text-transform: uppercase;
+  font-size: $base-font-size;
+  font-weight: $title-font-wight;
+  line-height: $text-line-height;
+}
+
+.header__content {
+  max-width: 550px;
+}
+
+.homepage {
+  color: $main-color;
+}
+
+.content__title,
+.content__paragraph {
+  padding-bottom: $element-padding-bottom;
+}
+
+.title_padding {
+  padding-top: 150px;
+}
+
+.content__title {
+  font-weight: $title-font-wight;
+  font-size: 48px;
+  line-height: $text-line-height;
+}
+
+.content__paragraph {
+  font-size: $base-font-size;
+  color: $element-color;
+}
+
+.content__btn {
+  background-color: $main-color;
+  color: $text-color;
+  padding: $btn-padding;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: $text-color;
+}
+
+.page_main {
+  padding-bottom: 100px;
+}
+
+.main__content {
+  text-align: center;
+  padding: 100px 0;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.content__title {
+  font-size: $title-font-size;
+  font-weight: $title-font-wight;
+  padding-bottom: $element-padding-bottom;
+}
+
+.content__paragraph {
+  color: $element-color;
+  font-weight: $text-font-wight;
+  font-size: $base-font-size;
+}
+
+.projects {
+  background-color: $main-color;
+}
+
+.main-projects {
+  padding: $box-padding;
+}
+
+.projects__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box__text-title {
+  color: $text-color;
+  font-size: $text-font-size;
+  font-weight: $title-font-wight;
+}
+
+.box__text-paragraph {
+  color: $text-color;
+  font-size: $text-font-size;
+  font-weight: $text-font-wight;
+}
+
+.main__video {
+  text-align: center;
+}
+
+.footer {
+  background-color: $main-color;
+}
+
+.page__foot {
+  padding: $element-padding-bottom;
+}
+
+.footer-container__inform-title,
+.footer-container__inform-paragraph {
+  color: $text-color;
+}
+
+.footer-container__inform-title {
+  font-size: $text-font-size;
+  padding-bottom: 20px;
+}
+
+.footer-container__inform-paragraph {
+  font-size: $base-font-size;
+}
