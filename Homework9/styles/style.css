@@ -1,23 +1,26 @@
-body {
+.page {
   font-family: Roboto;
 }
 
-.container_base {
+.container {
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .header {
-  background-color: #EEEFF1;
+  background-color: #eeeff1;
+}
+
+.page__head {
   padding: 80px 0 100px 0;
 }
 
-.header__navigation {
+.navigation__list {
   display: flex;
   gap: 42px;
 }
 
-.header__navigation-list-link {
+.navigation__link {
   color: #000;
   text-transform: uppercase;
   font-size: 16px;
@@ -25,28 +28,35 @@ body {
   line-height: 164.063%;
 }
 
+.header__content {
+  max-width: 550px;
+}
+
 .homepage {
   color: #34547A;
 }
 
-.header-content__title,
-.header-content__paragraph {
+.content__title,
+.content__paragraph {
   padding-bottom: 55px;
 }
 
-.header-content__title {
+.title_padding {
+  padding-top: 150px;
+}
+
+.content__title {
   font-weight: 500;
   font-size: 48px;
   line-height: 164.063%;
-  margin-top: 150px;
 }
 
-.header-content__paragraph {
+.content__paragraph {
   font-size: 16px;
   color: #727272;
 }
 
-.header-content__btn {
+.content__btn {
   background-color: #34547A;
   color: #fff;
   padding: 20px 40px;
@@ -55,67 +65,78 @@ body {
 
 .main {
   background-color: #fff;
+}
+
+.page_main {
   padding-bottom: 100px;
 }
 
-.main-content {
+.main__content {
   text-align: center;
   padding: 100px 0;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
-.main-content__title {
+.content__title {
   font-size: 32px;
   font-weight: 500;
   padding-bottom: 55px;
 }
 
-.main-content__paragraph {
+.content__paragraph {
   color: #727272;
   font-weight: 400;
   font-size: 16px;
 }
 
-.main-projects {
+.projects {
   background-color: #34547A;
+}
+
+.main-projects {
   padding: 100px 0;
 }
 
-.main-projects-box {
+.projects__box {
   display: flex;
   justify-content: space-between;
 }
 
-.main-projects-box-text__title {
+.box__text-title {
   color: #fff;
   font-size: 21px;
   font-weight: 500;
 }
 
-.main-projects-box-text__paragraph {
+.box__text-paragraph {
   color: #fff;
   font-size: 21px;
   font-weight: 400;
 }
 
-.main-video {
+.main__video {
   text-align: center;
 }
 
 .footer {
   background-color: #34547A;
+}
+
+.page__foot {
   padding: 55px;
 }
 
-.footer-inform__title,
-.footer-inform__paragraph {
+.footer-container__inform-title,
+.footer-container__inform-paragraph {
   color: #fff;
 }
 
-.footer-inform__title {
+.footer-container__inform-title {
   font-size: 21px;
   padding-bottom: 20px;
 }
 
-.footer-inform__paragraph {
+.footer-container__inform-paragraph {
   font-size: 16px;
 }

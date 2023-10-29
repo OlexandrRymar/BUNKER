@@ -1,141 +1,144 @@
-$main-color: #34547A;
-$element-color: #727272;
-$text-color: #fff;
-$base-color: #000;
-$font-family: Roboto;
-$text-font-size: 21px;
-$base-font-size: 16px;
-$title-font-size: 32px;
-$text-font-wight: 400;
-$title-font-wight: 500;
-$text-line-height: 164.063%;
-$btn-padding: 20px 40px;
-$element-padding-bottom: 55px;
-$box-padding: 100px 0;
+@import "./var.scss";
 
-
-body {
-    font-family: $font-family;
-
+.page {
+  font-family: $font-family;
 }
 
-.container_base {
-    margin: 0 auto;
-    max-width: 1200px;
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header {
-    background-color: #EEEFF1;
-    padding: 80px 0 100px 0;
-}
-.header__navigation{
-    display: flex;
-    gap: 42px;
+  background-color: #eeeff1;
 }
 
-.header__navigation-list-link {
-    color: $base-color;
-    text-transform: uppercase;
-    font-size: $base-font-size;
-    font-weight: $title-font-wight;
-    line-height: $text-line-height;
+.page__head {
+  padding: 80px 0 100px 0;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 42px;
+}
+
+.navigation__link {
+  color: $base-color;
+  text-transform: uppercase;
+  font-size: $base-font-size;
+  font-weight: $title-font-wight;
+  line-height: $text-line-height;
+}
+
+.header__content {
+  max-width: 550px;
 }
 
 .homepage {
-    color: $main-color;
+  color: $main-color;
 }
 
-.header-content__title,
-.header-content__paragraph {
-    padding-bottom: $element-padding-bottom;
+.content__title,
+.content__paragraph {
+  padding-bottom: $element-padding-bottom;
 }
 
-.header-content__title {
-    font-weight: $title-font-wight;
-    font-size: 48px;
-    line-height: $text-line-height;
-    margin-top: 150px;
+.title_padding {
+  padding-top: 150px;
 }
 
-.header-content__paragraph {
-    font-size: $base-font-size;
-    color: $element-color;
+.content__title {
+  font-weight: $title-font-wight;
+  font-size: 48px;
+  line-height: $text-line-height;
 }
 
-.header-content__btn {
-    background-color: $main-color;
-    color: $text-color;
-    padding: $btn-padding;
-    text-transform: uppercase;
+.content__paragraph {
+  font-size: $base-font-size;
+  color: $element-color;
+}
+
+.content__btn {
+  background-color: $main-color;
+  color: $text-color;
+  padding: $btn-padding;
+  text-transform: uppercase;
 }
 
 .main {
-    background-color: $text-color;
-    padding-bottom: 100px;
+  background-color: $text-color;
 }
 
-.main-content {
-    text-align: center;
-    padding: 100px 0;
+.page_main {
+  padding-bottom: 100px;
 }
 
-
-.main-content__title{
-    font-size: $title-font-size;
-    font-weight: $title-font-wight;
-    padding-bottom: $element-padding-bottom;
-    
+.main__content {
+  text-align: center;
+  padding: 100px 0;
+  max-width: 550px;
+  margin: 0 auto;
 }
 
-.main-content__paragraph {
-    color: $element-color;
-    font-weight: $text-font-wight;
-    font-size: $base-font-size;
+.content__title {
+  font-size: $title-font-size;
+  font-weight: $title-font-wight;
+  padding-bottom: $element-padding-bottom;
+}
+
+.content__paragraph {
+  color: $element-color;
+  font-weight: $text-font-wight;
+  font-size: $base-font-size;
+}
+
+.projects {
+  background-color: $main-color;
 }
 
 .main-projects {
-    background-color: $main-color;
-    padding: $box-padding;
+  padding: $box-padding;
 }
 
-.main-projects-box {
-    display: flex;
-    justify-content: space-between;
+.projects__box {
+  display: flex;
+  justify-content: space-between;
 }
 
-.main-projects-box-text__title {
-    color: $text-color;
-    font-size: $text-font-size;
-    font-weight: $title-font-wight;
+.box__text-title {
+  color: $text-color;
+  font-size: $text-font-size;
+  font-weight: $title-font-wight;
 }
 
-.main-projects-box-text__paragraph {
-    color: $text-color;
-    font-size: $text-font-size;
-    font-weight: $text-font-wight;
+.box__text-paragraph {
+  color: $text-color;
+  font-size: $text-font-size;
+  font-weight: $text-font-wight;
 }
 
-
-.main-video {
-    text-align: center;
-    
+.main__video {
+  text-align: center;
 }
 
 .footer {
-    background-color: $main-color;
-    padding: $element-padding-bottom;
-}
-    
-.footer-inform__title,
-.footer-inform__paragraph {
-        color: $text-color;
+  background-color: $main-color;
 }
 
-.footer-inform__title {
-    font-size: $text-font-size;
-    padding-bottom: 20px;
+.page__foot {
+  padding: $element-padding-bottom;
 }
 
-.footer-inform__paragraph {
-    font-size: $base-font-size;
+.footer-container__inform-title,
+.footer-container__inform-paragraph {
+  color: $text-color;
+}
+
+.footer-container__inform-title {
+  font-size: $text-font-size;
+  padding-bottom: 20px;
+}
+
+.footer-container__inform-paragraph {
+  font-size: $base-font-size;
 }
