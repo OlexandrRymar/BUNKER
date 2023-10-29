@@ -7,622 +7,550 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>Flex_Box</title>
   </head>
-  <body>
-    <header class="header">
-      <nav class="container header-top_navigation">
-        <ul class="header-top_navigation-list">
-          <li class="header-top_navigation-list__item">
-            <a href="#" class="header-top_navigation-list__item-link"
-              >Delivery</a
-            >
-          </li>
-          <li class="header-top_navigation-list__item">
-            <a href="#" class="header-top_navigation-list__item-link"
-              >Payment</a
-            >
-          </li>
-          <li class="header-top_navigation-list__item">
-            <a href="#" class="header-top_navigation-list__item-link"
-              >Reviews</a
-            >
-          </li>
-          <li class="header-top_navigation-list__item">
-            <a href="#" class="header-top_navigation-list__item-link">FAQ</a>
-          </li>
-          <li class="header-top_navigation-list__item">
-            <a href="#" class="header-top_navigation-list__item-link"
-              >Contacts</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="header-background">
-        <div class="container header-background-logo">
-          <div class="header-background-logo-wrapper">
-            <img
-              src="./images/logo.png"
-              alt="logo"
-              class="header-background-logo-wrapper__img"
-            />
-            <span class="header-background-logo-wrapper__beauty">beauty</span>
-          </div>
-          <div class="header-background-content_wrapper">
-            <p class="header-background-content_wrapper__number">
-              1 (213) 123-45-67
-            </p>
-            <button class="header-background-content_wrapper__call_back">
-              Call back
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="header-background">
-        <div class="container header-nav_bottom">
-          <ul class="header-nav_bottom-list">
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link">Salon</a>
+  <body class="page page_body">
+    <nav class="page_nav">
+      <div class="container">
+        <div class="navigation page_nav__top_navigation">
+          <ul class="navigation__list">
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-item-link">Delivery</a>
             </li>
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link"
-                >Barbershop</a
-              >
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-item-link">Payment</a>
             </li>
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link">Manicure</a>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-item-link">Reviews</a>
             </li>
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link">Pedicure</a>
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-item-link">FAQ</a>
             </li>
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link">Massage</a>
-            </li>
-            <li class="header-nav_bottom-list__item">
-              <a href="#" class="header-nav_bottom-list__item-link"
-                >Furniture</a
-              >
+            <li class="navigation__list-item">
+              <a href="#" class="navigation__list-item-link">Contacts</a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="header-background_pink">
-        <div class="container header-background_pink-content">
-          <h1 class="retreat header-background_pink-content__title">
-            Super chair
-          </h1>
-          <p class="retreat header-background_pink-content__text">
+
+      <div class="block_wrapper">
+        <div class="container">
+          <div class="logo page_nav__logo">
+            <div class="logo__wrapper">
+              <img
+                src="./images/logo.png"
+                alt="logo"
+                class="logo__wrapper-img"
+              />
+              <span class="logo__wrapper-beauty">beauty</span>
+            </div>
+            <div class="logo__content_wrapper">
+              <p class="logo__content_wrapper-number">1 (213) 123-45-67</p>
+              <button class="logo__content_wrapper-call_back">Call back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="block_wrapper_item">
+        <div class="container">
+          <div class="navigation page_nav__top_navigation">
+            <ul class="navigation__list">
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Salon</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Barbershop</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Manicure</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Pedicure</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Massage</a
+                >
+              </li>
+              <li class="navigation__list-item">
+                <a href="#" class="navigation__list-item-link link--size"
+                  >Furniture</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__banner_content">
+          <h1 class="retreat header__banner_content-title">Super chair</h1>
+          <p class="retreat header__banner_content-text">
             The text of the action always reflects the<br />essence, and not
             just<br />
             chatter, so be careful
           </p>
-          <button class="header-background_pink-content__btn">More</button>
+          <button class="header__banner_content-btn">More</button>
         </div>
       </div>
     </header>
-    <main class="main">
+    <main class="main page__main">
       <div class="container">
-        <div class="main-container-title">
-          <h2 class="main-container-title__special_offers">Special offers</h2>
+        <div class="main-container__title">
+          <h2 class="main-container__title-special_offers">Special offers</h2>
         </div>
-        <div class="main-container-top_card_wrapper">
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+        <div class="card_wrapper main-container__card_wrapper">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
         </div>
-        <div class="main-horizontal_box">
-          <div class="main-horizontal_box-card">
-            <div class="main-horizontal_box-card-content">
-              <h2 class="main-horizontal_box-card-content__card-name">
-                Get bonuses and gifts
-              </h2>
-              <p class="main-horizontal_box-card-content__card-paragraph">
+      </div>
+
+      <div class="container">
+        <div class="horizontal_box main-container__horizontal_box">
+          <div class="card horizontal_box__card">
+            <div class="card__content mail">
+              <h2 class="card__content-card-name">Get bonuses and gifts</h2>
+              <p class="card__content-card_paragraph">
                 Every month we play<br />
                 $1000 for our clients
               </p>
               <label for="email" class="label"></label>
               <input
-                class="main-horizontal_box-card-content__input"
+                class="card__content-input"
                 type="email"
                 id="email"
                 name="email"
               />
             </div>
-            <div class="main-horizontal_box-card-content-png">
-              <img
-                src="./images/mail.png"
-                alt="mail"
-                class="main-horizontal_box-card-content-png__enevelope"
-              />
-            </div>
+
           </div>
-          <div class="main-horizontal_item">
-            <div class="main-horizontal_item-content">
-              <h2 class="main-horizontal_item-content__visit_as">Visit us</h2>
-              <p class="main-horizontal_item-content__paragraph">
+          <div class="card horizontal_box__card">
+            <div class="card__content auto">
+              <h2 class="card__content-card-name">Visit us</h2>
+              <p class="card__content-card_paragraph">
                 Over 300 stores<br />
                 throughout the USA
               </p>
-              <button class="main-horizontal_item-content__store_map">
-                Store map
-              </button>
-            </div>
-            <div class="main-horizontal_item-content-image">
-              <img
-                src="./images/auto.png"
-                alt="auto"
-                class="main-horizontal_item-content-image__horizontal"
-              />
+              <button class="card__content-store_map">Store map</button>
             </div>
           </div>
         </div>
-        <div class="main-impulse-block">
-          <div class="impulse-block-box">
+      </div>
+
+      <div class="container">
+        <div class="impulse_block main-container__impulse-block">
+          <div class="impulse_block__box">
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box1 border"
+              class="impulse_block__box1 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box1 border"
+              class="impulse_block__box1 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box1 border"
+              class="impulse_block__box1 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box1"
-            />
-          </div>
-          <div class="impulse-box1">
-            <img
-              src="./images/impuls.png"
-              alt="#"
-              class="main-impulse-block-box__box2 border"
-            />
-            <img
-              src="./images/impuls.png"
-              alt="#"
-              class="main-impulse-block-box__box2 border"
-            />
-            <img
-              src="./images/impuls.png"
-              alt="#"
-              class="main-impulse-block-box__box2 border"
-            />
-            <img
-              src="./images/impuls.png"
-              alt="#"
-              class="main-impulse-block-box__box2"
+              class="impulse_block__box1"
             />
           </div>
-          <div class="impulse-box2">
+          <div class="impulse_block__box">
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box3 border"
+              class="impulse_block__box2 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box3 border"
+              class="impulse_block__box2 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box3 border"
+              class="impulse_block__box2 border"
             />
             <img
               src="./images/impuls.png"
               alt="#"
-              class="main-impulse-block-box__box3"
+              class="impulse_block__box2"
+            />
+          </div>
+          <div class="impulse_block__box">
+            <img
+              src="./images/impuls.png"
+              alt="#"
+              class="impulse_block__box3 border"
+            />
+            <img
+              src="./images/impuls.png"
+              alt="#"
+              class="impulse_block__box3 border"
+            />
+            <img
+              src="./images/impuls.png"
+              alt="#"
+              class="impulse_block__box3 border"
+            />
+            <img
+              src="./images/impuls.png"
+              alt="#"
+              class="impulse_block__box3"
             />
           </div>
         </div>
-        <div class="main-container-title">
-          <h2 class="main-container-title__special_offers">
+      </div>
+
+      <div class="container">
+        <div class="main-container__title">
+          <h2 class="main-container__title-special_offers">
             Have you recently viewed
           </h2>
         </div>
-        <div class="main-container-top_card_wrapper">
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+        <div class="card_wrapper main-container__card_wrapper">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
-          <div class="main-container-top_card_wrapper-box">
-            <div class="main-container-top_card_wrapper-box__image">
+          <div class="card_wrapper__box">
+            <div class="card_wrapper-box__image">
               <img
                 src="./images/chair-green.png"
                 alt="chair-green"
-                class="main-container-top_card_wrapper-box__image-chair"
+                class="card_wrapper-box__image-chair"
               />
             </div>
-            <div class="wrapper">
-              <p class="main-container-top_card_wrapper-box-content__text">
+            <div class="card_wrapper__content">
+              <p class="card_wrapper__content-content__text">
                 Hairdressing chair "Norm"<br />hydraulic
               </p>
             </div>
-            <div class="wrapper">
-              <span class="main-container-top_card_wrapper-box-content__price"
-                >$300</span
-              >
+            <div class="card_wrapper__item">
+              <span class="card_wrapper__item-price">$300</span>
             </div>
-            <div class="wrapper">
-              <a
-                href="#"
-                class="main-container-top_card_wrapper-box-content__btn"
-                >Buy</a
-              >
+            <div class="card_wrapper__item">
+              <a href="#" class="card_wrapper__item-btn">Buy</a>
             </div>
           </div>
         </div>
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer-flex">
-        <div class="footer-flex-navbar">
-          <div class="footer-flex-navbar-title">
-            <h2 class="footer-flex-navbar-title__popular">
-              Popular<br />
-              categories
-            </h2>
+      <div class="container">
+        <div class="flex footer-container__flex">
+          <div class="flex__navbar">
+            <div class="flex-navbar__title">
+              <h2 class="flex-navbar__title-popular">
+                Popular<br />
+                categories
+              </h2>
+            </div>
+            <ul class="flex-navbar__list">
+              <li class="flex-navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Нozzles</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Tools</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Gel polishes</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Design</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Building</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Equipment</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-flex-navbar-list">
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Нozzles</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Tools</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Gel polishes</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Design</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Building</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Equipment</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="container footer-flex-navbar">
-          <div class="footer-flex-navbar-title">
-            <h2 class="footer-flex-navbar-title__popular">
-              Popular<br />
-              categories
-            </h2>
+          <div class="flex__navbar">
+            <div class="flex-navbar__title">
+              <h2 class="flex-navbar__title-popular">
+                Popular<br />
+                categories
+              </h2>
+            </div>
+            <ul class="flex-navbar__list">
+              <li class="flex-navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Нozzles</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Tools</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Gel polishes</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Design</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Building</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Equipment</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-flex-navbar-list">
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Нozzles</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Tools</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Gel polishes</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Design</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Building</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Equipment</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="container footer-flex-navbar">
-          <div class="footer-flex-navbar-title">
-            <h2 class="footer-flex-navbar-title__popular">
-              Popular<br />
-              categories
-            </h2>
+          <div class="flex__navbar">
+            <div class="flex-navbar__title">
+              <h2 class="flex-navbar__title-popular">
+                Popular<br />
+                categories
+              </h2>
+            </div>
+            <ul class="flex-navbar__list">
+              <li class="flex-navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Нozzles</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Tools</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Gel polishes</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Design</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Building</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Equipment</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-flex-navbar-list">
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Нozzles</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Tools</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Gel polishes</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Design</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Building</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Equipment</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="container footer-flex-navbar">
-          <div class="footer-flex-navbar-title">
-            <h2 class="footer-flex-navbar-title__popular">
-              Popular<br />
-              categories
-            </h2>
+          <div class="flex__navbar">
+            <div class="flex-navbar__title">
+              <h2 class="flex-navbar__title-popular">
+                Popular<br />
+                categories
+              </h2>
+            </div>
+            <ul class="flex-navbar__list">
+              <li class="flex-navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Нozzles</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Tools</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Gel polishes</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Design</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Building</a>
+              </li>
+              <li class="flex_navbar-list__item">
+                <a href="#" class="flex-navbar-list__item-link">Equipment</a>
+              </li>
+            </ul>
           </div>
-          <ul class="footer-flex-navbar-list">
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Нozzles</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Tools</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Gel polishes</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link">Design</a>
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Building</a
-              >
-            </li>
-            <li class="footer-flex-navbar-list-item">
-              <a href="#" class="footer-flex-navbar-list-item__link"
-                >Equipment</a
-              >
-            </li>
-          </ul>
         </div>
       </div>
-      <div class="footer-content">
-        <div class="container footer-content-wrapper">
-          <div class="footer-content-wrapper-flex">
-            <a
-              href="https://www.youtube.com/"
-              target="_blank"
-              class="footer-content-wrapper-flex__link"
-              ><img
-                src="./images/YouTube.png"
-                alt=""
-                class="footer-content-wrapper-flex__link__img"
-            /></a>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              class="footer-content-wrapper-flex__link"
-              ><img
-                src="./images/Facebook.png"
-                alt=""
-                class="footer-content-wrapper-flex__link__img"
-            /></a>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              class="footer-content-wrapper-flex__link"
-              ><img
-                src="./images/instagram.png "
-                alt=""
-                class="footer-content-wrapper-flex__link__img"
-            /></a>
+
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__wrapper">
+            <div class="footer__wrapper_flex">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__wrapper-flex-link"
+                ><img
+                  src="./images/YouTube.png"
+                  alt=""
+                  class="footer__wrapper_flex-link-img"
+              /></a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__wrapper-flex-link"
+                ><img
+                  src="./images/Facebook.png"
+                  alt=""
+                  class="footer__wrapper_flex-link-img"
+              /></a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__wrapper-flex-link"
+                ><img
+                  src="./images/instagram.png "
+                  alt=""
+                  class="footer__wrapper_flex-link-img"
+              /></a>
+            </div>
+            <div class="footer__flex_box">
+              <p class="footer__flex_box-number">1 (213) 123-45-67</p>
+              <button class="footer__flex_box-btn">Callback</button>
+            </div>
           </div>
-          <div class="footer-content-wrapper-flex-box">
-            <p class="footer-content-wrapper-flex-box__number">
-              1 (213) 123-45-67
+        </div>
+      </div>
+      <div class="footer__information">
+        <div class="container">
+          <div class="footer__information_box">
+            <p class="footer__information_box-about">
+              Best Store (c) 2019 All rights reserved. Online store of equipment
+              for beauty salons
             </p>
-            <button class="footer-content-wrapper-flex-box__btn">
-              Callback
-            </button>
+            <p class="footer__information_box-policy">Privacy Policy</p>
           </div>
-        </div>
-      </div>
-      <div class="footer-information">
-        <div class="container footer-information-box">
-          <p class="footer-information-box__about">
-            Best Store (c) 2019 All rights reserved. Online store of equipment
-            for beauty salons
-          </p>
-          <p class="footer-information-box__policy">Privacy Policy</p>
         </div>
       </div>
     </footer>
