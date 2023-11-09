@@ -26,25 +26,6 @@ body {
   padding: 17px 15px;
 }
 
-@media screen and (max-width: 700px) {
-  .navigation__list {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .navigation__list-item-link:hover {
-    padding-left: 10px;
-    color: #fff;
-    background-color: #000;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .page_nav__logo {
-    flex-wrap: wrap;
-  }
-}
-
 .block_wrapper {
   background-color: #fff;
   border-bottom: 1px solid #efefef;
@@ -99,22 +80,6 @@ body {
   padding: 20px 20px;
 }
 
-@media screen and (max-width: 700px) {
-  .page_nav__logo {
-    flex-wrap: wrap;
-    padding: 15px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .logo__content_wrapper {
-    flex-wrap: wrap;
-  }
-
-  .logo__content_wrapper-number {
-    padding-bottom: 15px;
-  }
-}
 .header {
   background-color: #f13c6e;
 }
@@ -148,16 +113,6 @@ body {
 
 .retreat {
   margin-bottom: 50px;
-}
-
-@media screen and (max-width: 700px) {
-  .header {
-    padding: 15px;
-  }
-
-  .header__banner_content {
-    background-image: url(../images/barber-chair.png);
-  }
 }
 
 .main {
@@ -218,27 +173,6 @@ body {
   margin-top: 100px;
 }
 
-@media screen and (max-width: 1150px) {
-  .main-container__card_wrapper {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .main-container__card_wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .main-container__title-special_offers {
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .card_wrapper__box {
-    border-bottom: 2px solid black;
-  }
-}
-
 .card {
   background-color: #f13c6e;
 }
@@ -297,64 +231,19 @@ body {
   min-width: 550px;
 }
 
-@media screen and (max-width: 1150px) {
-  .main-container__horizontal_box {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 5px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .mail {
-    background-image: none;
-    min-width: 300px;
-  }
-
-  .auto {
-    background-image: none;
-    min-width: 300px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .horizontal_box__card {
-    flex-wrap: wrap;
-  }
-  .mail {
-    background-image: none;
-    min-width: 250px;
-  }
-
-  .auto {
-    background-image: none;
-    min-width: 250px;
-  }
-}
-
-.impulse_block {
-  background-color: #fff;
-}
-
-.main-container__impulse-block {
-  text-align: center;
+.main-container__impulse_block {
   margin-top: 100px;
   margin-bottom: 80px;
 }
-
-.impulse_block__box1,
-.impulse_block__box2 {
-  border-bottom: 1px solid #efefef;
+.impulse_block__flex_block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
 }
-
-.border {
-  border-right: 1px solid #efefef;
-}
-
-.impulse_block__box1,
-.impulse_block__box2,
-.impulse_block__box3 {
-  padding: 35px 72px;
+.impulse_block-flex_block__item {
+  background-color: #fff;
+  padding: 40px 75px;
 }
 
 .footer {
@@ -389,30 +278,6 @@ body {
   font-size: 12px;
   font-weight: 400;
   line-height: 28px;
-}
-
-@media screen and (max-width: 1150px) {
-  .footer-container__flex {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .footer-container__flex {
-    flex-wrap: wrap;
-    padding: 20px 15px;
-  }
-
-  .footer__wrapper,
-  .footer__information_box {
-    padding: 20px 15px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .footer__wrapper {
-    flex-wrap: wrap;
-  }
 }
 
 .footer__content {
@@ -467,4 +332,155 @@ body {
   color: #828282;
   font-size: 12px;
   font-weight: 400;
+}
+
+/* NAV  */
+
+@media screen and (max-width: 1280px) {
+  .page_nav__logo {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__list {
+    flex-direction: column;
+  }
+
+  .navigation__list-item-link:hover {
+    background-color: #333;
+    color: #efefef;
+  }
+
+  .page_nav__logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .main-container__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo__content_wrapper {
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .logo__content_wrapper-call_back {
+    margin-right: 20px;
+  }
+}
+
+/* HEADER  */
+
+@media screen and (max-width: 1280px) {
+  .header__banner_content {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__banner_content {
+    background-image: url(../images/barber-chair.png);
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__banner_content {
+    background-image: none;
+    text-align: center;
+  }
+
+  .header__banner_content-title {
+    font-size: 64px;
+  }
+}
+
+/* MAIN  */
+
+@media screen and (max-width: 1280px) {
+  .main-container__title {
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  .main-container__card_wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .main-container__horizontal_box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .horizontal_box__card {
+    justify-content: center;
+  }
+  .card__content {
+    background-image: none;
+    min-width: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card__content-input {
+    max-width: 150px;
+  }
+}
+
+/* FOOTER  */
+
+@media screen and (max-width: 1280px) {
+  .footer__wrapper {
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .footer-container__flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .footer__information_box {
+    padding: 5px 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__information_box {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .footer__wrapper {
+    justify-content: center;
+  }
+
+  .footer__information_box-about {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .footer__flex_box {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer__flex_box-number {
+    margin-left: 30px;
+  }
 }
